@@ -1,4 +1,4 @@
-require_relative 'sign_in_process'
+
 
 feature 'Checks to see other players hit points' do
 
