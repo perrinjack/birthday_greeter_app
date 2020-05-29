@@ -1,7 +1,8 @@
-require 'sinatra'
-require 'player'
-class Battle < Sinatra::Base
+# frozen_string_literal: true
 
+require 'sinatra'
+require './lib/player'
+class Battle < Sinatra::Base
   enable :sessions
 
   get '/' do
@@ -10,7 +11,7 @@ class Battle < Sinatra::Base
 
   post '/names' do
     $player_1 = Player.new(params[:player_1])
-    $player_2= Player.new(params[:player_2])
+    $player_2 = Player.new(params[:player_2])
     redirect('/play')
   end
 
