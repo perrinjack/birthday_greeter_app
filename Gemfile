@@ -3,5 +3,6 @@
 source 'https://rubygems.org'
 
 gem 'capybara'
+gem 'date'
 gem 'rspec'
 gem 'sinatra'

@@ -1,30 +1,24 @@
 # frozen_string_literal: true
 
+require './lib/identity.rb'
 require 'sinatra'
-require './lib/player'
-require './lib/game'
-class Battle < Sinatra::Base
-  enable :sessions
-
+class Greeter < Sinatra::Base
   get '/' do
-    erb(:form)
+    erb :index
   end
 
-  post '/names' do
-    $game = Game.new(Player.new(params[:player_1]),Player.new(params[:player_2]))
-    redirect('/play')
+  post '/hello' do
+    $birthday = Identity.new(params['name'], params['day'], params['month'])
+
+    redirect '/message'
   end
 
-  get '/play' do
-    @player1 = $game.player1
-    @player2 = $game.player2
-    erb(:play)
+  get '/message' do
+    @result = $birthday.result
+    erb :hello
   end
 
-  get '/attack' do
-    $game.attack
-    @player1 = $game.player1
-    @player2 = $game.player2
-    erb(:attack)
+  get '/again' do
+    redirect '/'
   end
 end
