@@ -1,6 +1,6 @@
 # Simple Birthday Greeter App
 
-A small project at Makers Academy to practice using sinatra & other technologies from week 4 og the course.
+A small project at Makers Academy to practice using sinatra & other technologies taught in week 4 of the course.
 
 ## Instructions
 
