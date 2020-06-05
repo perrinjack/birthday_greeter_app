@@ -34,4 +34,4 @@ I would like to be able to see how many days it is until 'the big day'
 
 To come...
 
-![Alt text](./lib/images/HomeScreen.png?raw=true "Title")
+![Homescreen](images/HomeScreen.png?raw=true)
