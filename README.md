@@ -1,6 +1,6 @@
 # Simple Birthday Greeter App
 
-A small projects at Makers Academy to practice using sinatra, HTML/CSS along with handling the HTTP response/request cycle.
+A small project at Makers Academy to practice using sinatra, HTML/CSS along with handling the HTTP response/requests.
 
 ## Instructions
 
@@ -32,3 +32,4 @@ I would like to be able to see how many days it is until 'the big day'
 
 ## Screenshots
 
+To come...
