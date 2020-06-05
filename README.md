@@ -33,3 +33,5 @@ I would like to be able to see how many days it is until 'the big day'
 ## Screenshots
 
 To come...
+
+![Alt text](./lib/images/HomeScreen.png?raw=true "Title")
