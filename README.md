@@ -35,3 +35,9 @@ I would like to be able to see how many days it is until 'the big day'
 To come...
 
 ![Homescreen](images/HomeScreen.png?raw=true)
+
+![Homescreen2](images/Birthday.png.png?raw=true)
+
+![Homescreen3](images/Form_Entrypng?raw=true)
+
+![Homescreen4](images/LongWait.png?raw=true)
