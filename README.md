@@ -32,11 +32,9 @@ I would like to be able to see how many days it is until 'the big day'
 
 ## Screenshots
 
-To come...
-
 ![Homescreen](images/HomeScreen.png?raw=true)
 
-![Homescreen2](images/Birthday.png.png?raw=true)
+![Homescreen2](images/Birthday.png?raw=true)
 
 ![Homescreen3](images/Form_Entry.png?raw=true)
 
