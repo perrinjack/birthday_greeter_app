@@ -13,7 +13,7 @@ class Identity
 
   def result
     @days_until_birthday = calculate_days
-    birthday? ? @birthday_message : "Your birthday is in #{@days_until_birthday} days!"
+    birthday? ? @birthday_message : "Your birthday is in #{@days_until_birthday} days #{name}!"
   end
 
   private
