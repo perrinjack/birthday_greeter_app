@@ -8,12 +8,12 @@ class Identity
   def initialize(name, day, month)
     @name = name
     @birthday = day + month
-    @birthday_message = "Happy Birthday #{name}! "
+    @birthday_message = "Happy Birthday #{@name}! "
   end
 
   def result
     @days_until_birthday = calculate_days
-    birthday? ? @birthday_message : "Your birthday is in #{@days_until_birthday} days #{name}!"
+    birthday? ? @birthday_message : "Your birthday is in #{@days_until_birthday} days #{@name}!"
   end
 
   private
