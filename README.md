@@ -38,6 +38,6 @@ To come...
 
 ![Homescreen2](images/Birthday.png.png?raw=true)
 
-![Homescreen3](images/Form_Entrypng?raw=true)
+![Homescreen3](images/Form_Entry.png?raw=true)
 
 ![Homescreen4](images/LongWait.png?raw=true)
